@@ -276,15 +276,15 @@ img.card-img-top.a{
 
   /* footer */
   
-  .footer{
+  /*.footer{
     margin: auto;
     position: relative;
     top: 600px;
-  }
+  }*/
   .logos{
-    margin-left: 45%;
-    margin-right: 45%;
-    width: 20%;
+    text-align: center;
+    position: relative;
+    top:85%
   }
   .fwall{
     background-image: url("https://images.unsplash.com/photo-1615966650071-855b15f29ad1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGFuZGFtYW4lMjBhbmQlMjBuaWNvYmFyJTIwaXNsYW5kc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
@@ -293,7 +293,13 @@ img.card-img-top.a{
     height: 700px;
     /* position: absolute; */
   }
-  .details{
-    position: absolute;
-    text-align: center;
-  }
+ a.color{
+  color: #00b894;
+  letter-spacing: 10px;
+  
+ }
+ p.copyright{
+  text-align: center;
+  position:relative;
+  top: 90%;
+ }
