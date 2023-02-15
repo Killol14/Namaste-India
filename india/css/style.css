@@ -42,6 +42,12 @@ main{
     text-align: center;
 }
 
+section{
+    margin-top: 50%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
 section h3{
     font-size: 35px;
     font-weight: 200;
@@ -110,17 +116,16 @@ animation-duration: 5s;
 
 
 /* Digital Clock*/
-body{
-    /*margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.containerone{
+    width: 100%;
     height: 100vh;
-    justify-content: center;*/
     background: url("https://images.unsplash.com/photo-1567255097545-018d2b9c414c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    
     
 }
 h2{
@@ -173,3 +178,107 @@ h2{
     background: green;
     border-radius: 1ch;
 }
+/* container 2 */
+.text h3{
+    color: orangered;
+    text-align: center;
+    font-size: 2.2rem;
+    padding: 20px;
+}
+.text h4{
+    text-align: center;
+    color: olive;
+  }
+  h5.card-title{
+    color: goldenrod;
+    font-size: 1.2rem;
+  }
+.card-deck{
+    width: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+  a.see{
+    text-align: center;
+    color: #00b894;
+    display: flex;
+    justify-content: center;
+  }
+  a.see:hover{
+color: aliceblue;
+  }
+  .containertwo{
+   background-color: #020405;
+  }
+ 
+  p{
+    color: orange;
+    text-align: center;
+    font-family:'Josefin Slab', serif;
+  }
+  p.card-text{
+    text-align: center;
+    padding: 10px;
+  }
+  .text{
+    top: 0;
+    position: relative;
+    width: auto;
+    margin: auto;
+    padding-bottom: 50px;
+  }
+ 
+  .a:hover{
+    transition: 0.3s;
+    transform: scale(0.9);
+    opacity: 0.5;
+  }
+  
+  .row{
+    padding: 0;
+  }
+  /* container 3 */
+  .containerthree{
+    background-color: #020405;
+  }
+  .card-group{
+    margin: auto;
+    border: none;
+    width: 60%;
+    background-color: inherit;
+  }
+  .card{
+    background-color: inherit;
+    padding: 10px;
+  }
+  .card-body{
+    background-color: #020405;
+  }
+  
+  /* footer */
+  
+  .footer{
+    margin: auto;
+    position: relative;
+    top: 600px;
+  }
+  .logos{
+    margin-left: 45%;
+    margin-right: 45%;
+    width: 20%;
+  }
+  .fwall{
+    background-image: url("https://images.unsplash.com/photo-1615966650071-855b15f29ad1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGFuZGFtYW4lMjBhbmQlMjBuaWNvYmFyJTIwaXNsYW5kc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    /* position: absolute; */
+  }
+  .details{
+    position: absolute;
+    text-align: center;
+  }
