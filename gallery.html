@@ -6,12 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Namaste India Gallery</title>
 
+  <!-- font-awesome-->
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+  <script src="https://kit.fontawesome.com/5ab2e71812.js" crossorigin="anonymous"></script>
+  
+
+<!--jQuery link-->
     <link rel="stylesheet" href="css/flipster.min.css">
 
+<!--Style.css Gallery.css Links-->
     <link rel="stylesheet" href="india/css/gallery.css">
     <link rel="stylesheet" href="india/js/jsflipster/jquery.flipster.min.css">
 </head>
 <body>
+    <div class="container">
+        <a href="#" class="toggleBox">
+            <span class="icon"></span>
+        </a>
+        <ul class="navItems">
+            <li>
+                <a href="index.html">
+                    <i class="fa fa-home" style="--i:1"></i>
+                    <span style="--g:1">Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="india.html">
+                    <i class="fa fa-user" style="--i:2"></i>
+                    <span style="--g:2">About</span>
+                </a>
+            </li>
+            <li>
+                <a href="contact.html">
+                    <i class="fa-regular fa-address-book" style="--i:3"></i>
+                    <span style="--g:3">Contact</span>
+                </a>
+            </li>
+
+
+
+        </ul>
+    </div>
      <div class="hero">
         <div class="carousel">
             <ul>
@@ -29,7 +65,7 @@
 
      </div>    
 
-
+<!---JQuery CDN-->
      <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
 
      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.flipster/1.1.5/jquery.flipster.min.js" integrity="sha512-YPskov+TTZvojhg9iWYQKa6iRPRm8hko8GBbdV8A8KKMTwp84+jm2K+soYNx3Wf6qQhxb+kn2sjpMZwkWxnD/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -42,5 +78,7 @@
         spacing: -0.3,
     });
 </script>
+
+<script src="india/js/script.js"></script>
 </body>
 </html>
