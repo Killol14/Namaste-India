@@ -1,3 +1,9 @@
+/*gallery.html*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
 img{
    width: 500px;
    height: 500px;
@@ -20,6 +26,14 @@ img:hover{
     opacity: 0.5;
   }
   /* navbar*/
+
+  body{
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    background-color: silver;
+  }
+
   .container{
     top:150px;
     height: 70px;
@@ -53,7 +67,6 @@ img:hover{
 
   .toggleBox.active .icon{
     width: 0;
-
   }
 
   .icon::before, .icon::after{
@@ -93,6 +106,9 @@ img:hover{
   .container.active .navItems{
     visibility: visible;
   }
+  ul.navItems{
+    margin: 0;
+  }
   li{
     list-style: none;
   }
@@ -107,6 +123,31 @@ img:hover{
     padding: 25px 0;
     width: 100%;
     text-align: center;
+    transform: scale(0);
+  }
+  li a i::after{
+    position: absolute;
+    content: '';
+    top: 100%;
+    right: 0%;
+    width: 0px;
+    height: 50%;
+    transform: translateY(-50px);
+    background-color: aqua;
+    border-radius: 8px 0 0 8px;
+  }
+li:hover a i::after{
+    width: 8px;
+    transition: 0.3s;
+}
+  .container.active .navItems li a i{
+    transform: scale(1);
+    transition: 0.4s ease;
+    transition-delay: calc(0.08s * var(--i));
+  }
+  .container.active .navItems li:hover a i{
+    transition: 0.2s ease;
+    color:aqua;
   }
   li a span{
     position: absolute;
@@ -116,3 +157,14 @@ img:hover{
     letter-spacing: 2px;
 
   }
+  .container.active .navItems li a span{
+    transform: translateX(15px);
+    transition: 0.4s ease;
+    transition-delay: calc(0.08s * var(--g));
+  }
+  .container.active .navItems li:hover a span{
+    transform: translateX(30px);
+    transition: 0.2s ease;
+    color: aquamarine;
+  }
+  
