@@ -37,6 +37,18 @@ nav .menu a {
 nav .menu a:first-child{
     color: #00b894;
 }
+nav .menu a:hover{
+  font-size: x-large;
+}
+
+.hamburger {
+  display: none;
+}
+
+.hamburger:focus {
+  outline: 0;
+}
+
 main{
     width: 100%;
     height: auto;
@@ -303,3 +315,50 @@ img.card-img-top.a{
   position:relative;
   top: 90%;
  }
+
+ @media screen and (max-width: 1000px) and (min-width: 0px){
+
+ 
+  nav .menu a {
+    flex-direction: column;
+    display: none;
+    margin: 0px;
+    background-color: transparent;
+}
+
+  .hamburger {
+    display: block;
+    border: 0;
+    background-color: transparent;
+    color: var(--accent-gold-color);
+    font-size: 30px;
+    margin: 20px;
+    align-self: flex-end;
+   }
+   .menu {
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: transparent;
+    text-align: center;
+}
+
+nav .menu {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: var(--accent-gold-color);
+    font-weight: 800;
+}
+
+.active.nav-link {
+    text-decoration: underline;
+    color: #F7B21F;
+}
+
+
+ }
+ 

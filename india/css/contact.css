@@ -2,13 +2,18 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Josefin Slab', serif;
 }
 
 body{
     width: 100%;
     height: 100vh;
+    background: url("/images/India.img/travel2.png") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+
 }
+
 
 .container{
     position: relative;
@@ -18,40 +23,17 @@ body{
     width: 100%;
     height: 100%;
     padding: 20px 100px;
-    min-height: 20vh;
-    background-attachment: fixed;
-}
-
-.container::after{
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url("https://www.travelandleisure.com/thmb/iAIrOVW7yWrDG8pZBpKMOvEGuNQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/new-delhi-india-NEWDELHITG0721-60d592e1603349298a0206d67d08582b.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: -1;
-   
-    
- 
 }
 
 .content-box{
     max-width: 850px;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-tempLate-coLumns: repeat(2, 1fr);
     justify-content: center;
     align-items: center;
     text-align: center;
     background-color: #fff;
     box-shadow: 0px 0px 19px 5px salmon; 
-}
-
-
-.right{
-    padding: 25px 40px;
 }
 
 h2{
@@ -61,10 +43,10 @@ h2{
     
 }
 
-h2::after{
+h2:after{
     content: '';
     position: absolute;
-    left: 50px;
+    left: 50%;
     bottom: 0;
     transform: translateX(-50%);
     height: 4px;
@@ -75,7 +57,7 @@ h2::after{
 
 .field{
     width: 100%;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0.1rem;
     outline: none;
     border: 2px solid rgba(0, 0, 0, 0);
     background-color: rgba(230, 230, 230, 0.6);
@@ -93,13 +75,11 @@ h2::after{
     border: 2px solid white;
 }
 
-.area{
-    min-height: 150px;
-}
+
 
 .btn{
    width: 100%;
-   padding: 0.5rem 1rem; 
+   padding: 0.5rem 0.1rem; 
    font-size: 1.1rem;
    background-color: #2ecc71;
    cursor: pointer;
@@ -110,18 +90,15 @@ h2::after{
 }
 
 .btn:hover{
-    background-color: #27ae60;
+    background-color: #1bdf6c;
 }
 
-@media screen and (max-width:900px) {
+@media screen and (max-width:850px) {
     .contact-box{
         grid-template-columns: 1fr;
     }
-    .left{
-        height: auto;
-    }
-    div.right{
-      margin: 0%;
-      padding: 0%;
+    
+    .field{
+        padding: 0.5rem 0.1rem;
     }
 }
