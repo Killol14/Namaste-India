@@ -93,6 +93,7 @@ h2:after{
     background-color: #1bdf6c;
 }
 
+
 @media screen and (max-width:850px) {
     .contact-box{
         grid-template-columns: 1fr;

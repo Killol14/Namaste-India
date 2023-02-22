@@ -1,8 +1,12 @@
-const hamburgerButton = document.getElementById('hamburger');
-const navList = document.getElementsByClassName('.menu');
+const toggleBtn = document.querySelector(".toggle_btn");
+const toggleBtnIcon = document.querySelector(".toggle_btn i");
+const dropDownMenu = document.querySelector(".dropdown_menu");
 
-function toggleButton() {
-    navList.classList.toggle('show');
+toggleBtn.onclick = function () {
+    dropDownMenu.classList.toggle('open')
+    const isOpen = dropDownMenu.classList.contains('open')
+
+    toggleBtnIcon.classList = isOpen
+    ? 'fa-solid fa-xmark bar'
+    : 'fa-solid fa-bars bar'
 }
-
-hamburgerButton.addEventListener('click', toggleButton);
