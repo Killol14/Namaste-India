@@ -209,6 +209,7 @@ h2{
 .text h4{
     text-align: center;
     color: olive;
+    font-size: 1.2rem;
   }
   h5.card-title{
     color: goldenrod;
@@ -247,6 +248,7 @@ img.card-img-top.a{
   p{
     color: orange;
     text-align: center;
+    font-size: 1.2rem;
     font-family:'Josefin Slab', serif;
   }
   p.card-text{
@@ -285,60 +287,13 @@ img.card-img-top.a{
     background-color: #020405;
   }
   
-/* Digital Clock*/
 
-.clock{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  
-}
-.clock div{
-  margin: 5px;
-  align-items: center;
-  position: relative;
-}
-
-.clock span{
-  width: 200px;
-  height: 100px;
-  background-color: slateblue;
-  opacity: .8;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 50px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-  border-radius: 10px;
-}
-.clock .text{
-  height:  40px;
-  font-size: 10px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  background: blue;
-  opacity: 0.8;
-  margin-top: 10px;
-}
-
-.clock #ampm{
-  bottom: 0;
-  position: absolute;
-  width: 80px;
-  height: 30px;
-  font-size: 20px;
-  background: green;
-  border-radius: 1ch;
-}
 
   /* footer */
-  
-  /*.footer{
-    margin: auto;
-    position: relative;
-    top: 600px;
-  }*/
+div.logos{
+  margin: 30px;
+}
+
   .logos{
     text-align: center;
     position: relative;
@@ -346,8 +301,17 @@ img.card-img-top.a{
   }
 
  a.color{
-  color: #00b894;
-  letter-spacing: 10px;
+  color: orangered;
+  letter-spacing: 20px;
+  text-decoration: none;
+
+  
+ }
+ 
+ a.color:hover{
+  color: orange;
+  font-size: x-large;
+  
   
  }
  p.copyright{

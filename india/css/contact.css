@@ -10,10 +10,59 @@ body{
     height: 100vh;
     background: url("/images/India.img/travel2.png") no-repeat center;
     background-size: cover;
-    background-attachment: fixed;
+    
 
 }
-
+/* Style the hamburger menu */
+.menu .toggle_btn {
+  
+    cursor: pointer;
+    display: none;
+  }
+  
+  .bar{
+    color: orange;
+    position: absolute;
+    left: 90%;
+    top: 25px;
+    font-size: 2.5rem;
+  }
+  a.nav-link{
+  color: red;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-family:'Josefin Slab', serif;
+  }
+  a.nav-link:hover{
+    color: #00b894;
+  font-size: x-large;
+  }
+  
+  /*Dropdown Menu*/
+  .dropdown_menu{
+    position: absolute;
+    right: 1rem;
+    top: 95px;
+    height: 0;
+    width: 300px;
+    background-color: black;
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  
+  }
+  .dropdown_menu.open{
+    height: 240px;
+  }
+  
+  .dropdown_menu li{
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
 
 .container{
     position: relative;
@@ -103,3 +152,18 @@ h2:after{
         padding: 0.5rem 0.1rem;
     }
 }
+
+@media (max-width: 1200px) {
+    .menu .nav-link{
+      display: none;
+    }
+    .menu .toggle_btn{
+      display: block;
+   }
+   @media (max-width: 600px) {
+    .dropdown_menu {
+      left: 2rem;
+      width: unset;
+    }
+   }
+   }

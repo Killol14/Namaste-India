@@ -22,7 +22,18 @@
     <link rel="stylesheet" href="india/css/contact.css">
     <link rel="stylesheet" href="india/css/style.css">
 
+    <!--Email.js-->
 
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+   
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("ao8NZJpXGKVZ_9w8F");
+   })();
+</script>
 
     <title>Contact Us</title>
 </head>
@@ -53,21 +64,27 @@
 
         </div>
     </header>
+
     <div class="container">
         <div class="contact-box">
             <div class="right">
                 <h2>Contact Us</h2>
+
+                <form onsubmit="return sendMail(this);">
+
                 <input type="text" class="field" placeholder="Your Name">
                 <input type="email" class="field" placeholder="Your Email">
                 <input type="text" class="field" placeholder="Your Phone">
                 <textarea class="field" placeholder="Message"></textarea>
                 <button class="btn">Send</button>
-
+                
+              </form>
+                
             </div>
         </div>
     </div>
 
     <script src="india/js/app.js"></script>
-
+    <script src="india/js/sendEmail.js"></script>
 </body>
 </html>
