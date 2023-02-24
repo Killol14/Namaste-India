@@ -152,18 +152,3 @@ h2:after{
         padding: 0.5rem 0.1rem;
     }
 }
-
-@media (max-width: 1200px) {
-    .menu .nav-link{
-      display: none;
-    }
-    .menu .toggle_btn{
-      display: block;
-   }
-   @media (max-width: 600px) {
-    .dropdown_menu {
-      left: 2rem;
-      width: unset;
-    }
-   }
-   }
