@@ -151,14 +151,14 @@ Used RGB throughout.
 
 I chose this colour scheme, as the website is based around Nature, the Green and beige colour scheme match with the nature tones of the topic of the website.  
 
-* #365832
-* #3f6963
-* beige
-* darkcyan
-* rgb(207, 226, 30)
-* rgb(63, 90, 81)
+* Black
+* Olive
+* FF0000
+* FF4500
+* CFB21F
+* 9ACD32
 
-![Park Colour Scheme](images/Colour%20Scheme.png)
+![Park Colour Scheme](images/README.img/colour.PNG)
 
 ## Images  
 
@@ -307,16 +307,22 @@ JQuery came with Bootstrap to make the Nav bar responsive
 | Social Media links| 1. There are 4 social media links, Facebook, Linkedin, Instagram and twitter.Once pressed these take you to the relevant social media pages.| All links work and take to the relevant social media page| As expected, to work without any bugs| No Bug Detected|
 
 ### Html, css and LightHouse Testing Reports
-* CSS
-![Wireframe PNG](images/sutton%20park%20css.PNG) 
 ----------
-* index.html
+* HTML Validator Reports 
 ![Wireframe PNG](images/HtmlReport.PNG) 
-* index.html showing an error while doing a W£Scool validation report. I have Tried to fix the error but the error is coming from google link. According to my reserch google is not supporting some of the website links. 
+
+* CSS Validator Reports
+![Wireframe PNG](images/sutton%20park%20css.PNG) 
+
 ----------
 * LightHouse Performance
-![Wireframe PNG](images/LightHouse%20Performance.PNG) 
-* lightHouse performance was 56% before because of the Images used in sutton park site. I have managed to bring it to 77% by reducing images size. 
+![Wireframe PNG](images/README.img/lighthouse1.PNG) 
+![Wireframe PNG](images/README.img/lighthouse2.PNG) 
+![Wireframe PNG](images/README.img/lighthouse3.PNG) 
+![Wireframe PNG](images/README.img/lighthouse4.PNG) 
+![Wireframe PNG](images/README.img/lighthouse5.PNG) 
+![Wireframe PNG](images/README.img/lighthouse6.PNG) 
+
 
 
 ## Deployment  
