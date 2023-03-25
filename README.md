@@ -106,7 +106,7 @@ I also believe that visitors who wish to ask more questions about the park and t
 
 ### Home Page
 
-![Wireframe1](images/READMEimg/Namaste20%India20%Home.png)
+![Wireframe1](images/READMEimg/Home.png)
 ![Wireframe2](images/README.img/Home20%Page2.png)
 ![Wireframe3](images/README.img/Home20%Page3.png)
 
