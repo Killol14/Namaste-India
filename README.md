@@ -106,8 +106,8 @@ I also believe that visitors who wish to ask more questions about the park and t
 
 ### Home Page
 
-![Wireframe1](images/READMEimg/Home.png)
-![Wireframe2](images/README.img/Home20%Page2.png)
+![Wireframe1](images/README.img/Home.png)
+![Wireframe2](images/README.img/Home%20Page2.png)
 ![Wireframe3](images/README.img/Home20%Page3.png)
 
 ### About Page
@@ -440,3 +440,4 @@ This website is purely fictious and not for public consumption.
 
 [def]: https://github.com/github
 [def2]: images/LightHouse%20Performance.png
+[def3]: images/READMEimg/Home.png
