@@ -309,7 +309,12 @@ JQuery came with Bootstrap to make the Nav bar responsive
 ### Html, css and LightHouse Testing Reports
 ----------
 * HTML Validator Reports 
-![Wireframe PNG](images/HtmlReport.PNG) 
+![Wireframe PNG](images/README.img/Html1.PNG) 
+-----
+![Wireframe PNG](images/README.img/Gallery.html1.PNG) 
+![Wireframe PNG](images/README.img/Gallery.html2.PNG) 
+-----
+![Wireframe PNG](images/README.img/Gallery.html2.PNG) 
 
 * CSS Validator Reports
 ![Wireframe PNG](images/sutton%20park%20css.PNG) 
