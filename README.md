@@ -108,32 +108,32 @@ I also believe that visitors who wish to ask more questions about the park and t
 
 ![Wireframe1](images/README.img/Home.png)
 ![Wireframe2](images/README.img/Home%20Page2.png)
-![Wireframe3](images/README.img/Home20%Page3.png)
+![Wireframe3](images/README.img/Home%20Page3.png)
 
 ### About Page
 
-![Wireframe](images/README.img/About20%Page.png)
+![Wireframe](images/README.img/About%20Page.png)
 
 ### Gallery Page
 
-![Wireframe1](images/README.img/Gallery20%Page.png)
-![Wireframe2](images/README.img/Gallery20%Page2.png)
+![Wireframe1](images/README.img/Gallery%20Page.png)
+![Wireframe2](images/README.img/Gallery%20Page2.png)
 
 ### Package Page
 
-![Wireframe](images/README.img/Package20%Page.png)
+![Wireframe](images/README.img/Package%20Page.png)
 
 ### Contact Page
 
-![Wireframe](images/README.img/Contact20%Page.png)
+![Wireframe](images/README.img/Contact%20page.png)
 
 ### Ipad View
 
-![Wireframe](images/README.img/Ipad20%View.png)
+![Wireframe](images/README.img/Ipad%20View.png)
 
 ###Phone View
 
-![Wireframe](images/README.img/Phone20%View.png)
+![Wireframe](images/README.img/Phone%20View.png)
 
 
 
