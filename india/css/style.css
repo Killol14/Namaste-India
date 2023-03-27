@@ -418,4 +418,14 @@ div.logos{
     background-image: url("/images/index.img/taj.JPEG");
   }
 }
+@media (max-width: 680px) {
+  .containerone {
+    background-image: url("/images/index.img/taj.JPEG");
+  }
+}
+@media (max-width: 1400px) {
+  .containerone {
+    background-image: url("/images/index.img/taj.JPEG");
+  }
+}
 
