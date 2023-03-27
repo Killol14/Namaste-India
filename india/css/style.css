@@ -219,7 +219,7 @@ animation-duration: 5s;
     max-width: 100%;
     height: 100vh;
     margin: auto;
-    background-image: url("/images/index.img/tajhotel.jpeg");
+    background-image: url("/images/index.img/taj.JPEG");
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
@@ -256,23 +256,24 @@ h2{
     color: goldenrod;
     font-size: 1.2rem;
   }
-.card-deck{
+  .card-deck{
     width: auto;
     margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
   img.card-img-top{
   width: 400px;
   height: 200px;
   border-radius: 10px;
   transition: all .5s ease;
+
  
 }
-img.card-img-top.a{
+ img.card-img-top.a{
   margin: 10px;
+  align-items: center;
 }
   a.see{
     text-align: center;
@@ -332,7 +333,7 @@ img.card-img-top.a{
 
 
   /* footer */
-div.logos{
+  div.logos{
   margin: 30px;
 }
 
@@ -389,18 +390,22 @@ div.logos{
  
  @media (max-width: 1200px){
   .card-deck{
-    width: auto;
-    margin: auto;
-    display: none;
+    margin-left: 25%;
     justify-content: center;
     align-items: center;
+    display:inline-block;
+    text-align: center;
   }
+ 
   .menu .nav-link{
     display: none;
   }
   .menu .toggle_btn{
     display: block;
  }
+
+/*Media Query*/
+
   }
   @media (max-height: 600px) {
     .bar{
@@ -413,7 +418,7 @@ div.logos{
     }
     
   }
-  /*
+  
  @media (max-width: 480px) {
   .containerone {
     height: 100vh;
@@ -435,4 +440,4 @@ div.logos{
     background-image: url("/images/index.img/taj.JPEG");
   }
 }
-*/
+
