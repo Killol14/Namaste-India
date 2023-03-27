@@ -111,3 +111,24 @@ h2:after{
     }
 }
 
+@media (max-width: 480px) {
+    .containerone {
+      height: 100vh;
+      width: 100%;
+      background-image: url("/images/India.img/travel2.png");
+    }
+  }
+  @media (max-width: 680px) {
+    .containerone {
+      height: 100vh;
+      width: 100%;
+      background-image: url("/images/India.img/travel2.png");
+    }
+  }
+  @media (max-width: 1400px) {
+    .containerone {
+      height: 100vh;
+      width: 100%;
+      background-image: url("/images/India.img/travel2.png");
+    }
+}
