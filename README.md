@@ -309,17 +309,28 @@ JQuery came with Bootstrap to make the Nav bar responsive
 ### Html, css and LightHouse Testing Reports
 ----------
 * HTML Validator Reports 
+
 ![Wireframe PNG](images/README.img/Html1.PNG) 
 -----
 ![Wireframe PNG](images/README.img/Gallery.html1.PNG) 
 ![Wireframe PNG](images/README.img/Gallery.html2.PNG) 
 -----
 ![Wireframe PNG](images/README.img/Gallery.html2.PNG) 
-
-* CSS Validator Reports
-![Wireframe PNG](images/sutton%20park%20css.PNG) 
-
 ----------
+* CSS Validator Reports
+
+![Wireframe PNG](images/README.img/style.cssrepo.PNG) 
+![Wireframe PNG](images/README.img/gallery.cssrepo.PNG) 
+![Wireframe PNG](images/README.img/lightbox.cssrepo.PNG) 
+![Wireframe PNG](images/README.img/about.cssrepo.PNG) 
+![Wireframe PNG](images/README.img/contact.cssrepo.PNG) 
+----------
+
+* JavaScript Validator Reports
+
+![Wireframe PNG](images/README.img/javascript.report.PNG) 
+
+
 * LightHouse Performance
 ![Wireframe PNG](images/README.img/lighthouse1.PNG) 
 ![Wireframe PNG](images/README.img/lighthouse2.PNG) 
@@ -329,7 +340,7 @@ JQuery came with Bootstrap to make the Nav bar responsive
 ![Wireframe PNG](images/README.img/lighthouse6.PNG) 
 
 
-
+-----------------------------------------------------------------------------------------------------
 ## Deployment  
 
 ### How this Project was Deployed
@@ -337,7 +348,7 @@ JQuery came with Bootstrap to make the Nav bar responsive
 This project was deployed to GitHub pages via the following steps:
 
 1.Log into GitHub.![Link to Github] (https://github.com/github)
-2.From the list of Repositories, select (Killol14/the-sutton-park.)
+2.From the list of Repositories, select (Killol14/Namaste-India.)
 3.From the Repositories sub-headings, select "Settings".
 4.Under "Options", the first category of settings, scroll down to the GitHub Pages section.
 5.From the dropdown list under the "Source" heading, select "master".
@@ -366,11 +377,11 @@ As this project was developed on the master branch, all changes made to the repo
 1.Visit Hard Driver's GitHub Repository.
 2.Click the "Code" dropdown box above the repository's file explorer.
 3.Under the "Clone" heading, click the "HTTPS" sub-heading.
-4.Click the clipboard icon, or manually copy the text presented: (https://github.com/Killol14/the-sutton-park.git)
+4.Click the clipboard icon, or manually copy the text presented: (https://github.com/Killol14/Namaste-India.git)
 5.Open your preferred IDE (VSCode, Atom, PyCharm, etc).
 6.Ensure your IDE has support for Git, or has the relevant Git extension.
 7.Open the terminal, and create a directory where you would like the Repository to be stored.
-8.Type git clone and paste the previously copied text (https://https://github.com/Killol14/the-sutton-park.git) and press enter.
+8.Type git clone and paste the previously copied text (https://https://github.com/Killol14/Namaste-India.git) and press enter.
 9.The Repository will then be cloned to your selected directory.
 
 ### Manually Downloading the Repository
