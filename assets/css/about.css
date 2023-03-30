@@ -41,6 +41,12 @@ span {
     color:aliceblue
 
 }
+.p{
+    color: olive;
+    text-align: center;
+    font-size: 1.6rem;
+    font-family:'Josefin Slab', serif;
+  }
 
 .tag{
     padding: 50px;
