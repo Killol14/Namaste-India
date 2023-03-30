@@ -12,7 +12,7 @@ Namste India Is for people who whats know about The India before they travel.
 
  
 
-This is my Milestone project 1 submission for Code Institute’s Diploma in Web Application Development course. My Website features six pages and is built using languages that I have learnt including, HTML, CSS, JAVA, and Bootstrap.  
+This is my Milestone project 1 submission for Code Institute’s Diploma in Web Application Development course. My Website features six pages and is built using languages that I have learnt including, HTML, CSS, JAVAscript, jquery and Bootstrap.  
 
  
 
@@ -51,13 +51,13 @@ https://github.com/Killol14/Nmaste-India
 
 1.Navigation Bar  
 
-2.Carousel  
+2.Carousel card and JsFlipster  
 
 3.Hyperlinks  
 
 4.Map  
 
-5.Back to top Buttons  
+5.LightHouse Images
 
 6.Social Media Links (Footer)  
 
@@ -96,11 +96,11 @@ https://github.com/Killol14/Nmaste-India
 
 Pspective visitors 
 
-I created this website for families and potential visitors to the park, as I couldn’t find a website that contained both, park information and images in one easy to use and navigate website. 
+I created this website for families and potential visitors and first Time Travelling to TheIndia, as I couldn’t find a website that contained the information for the firsttime Travelling to india and wants know before travelling to the India. 
 
-I believe visitors would like to see the events happening at the park, as well as where are the restaurants, entrances, car park and playgrounds are located.  
 
-I also believe that visitors who wish to ask more questions about the park and the amenities can do so, as I have created a contact form to submit with any questions.  
+
+I also believe that visitors who wish to ask more questions about the India befor they travel as I have created a contact form to submit with any questions and also I have created a Package Guide form where they can find out estimated price for travelling to India.
 
 ## Wireframes  
 
@@ -139,9 +139,8 @@ I also believe that visitors who wish to ask more questions about the park and t
 
 ## Design 
 
-For the Main title page of The Sutton Park website, (H1) I used Ubuntu as the main font. This is a clear and simplistic font enabling Viewers of the website see clearly the topic of the website.  
+For the Main title page of The Namste India website, (H1) I used "Josefin Slabas" the main font. This is a clear and simplistic font enabling Viewers of the website see clearly the topic of the website.  I also Used Same Font "Josefin Slab" throughout the wwebsite as seems like its more related font with Indian culture.
 
-The main text in the website is formatted using Montserrat- Bold. Again, this is a visually striking text that is simplistic and enables the reader to navigate the website easily.  
 
  
 
@@ -188,11 +187,12 @@ I used the social media on the footer Icons, which are located on the footer fro
 
 The navigation bar is Static and is sticky, so the user can refer back to the links at the top at any point.  
 
-I have added the navigation bar on the gallery page in order to provide the reader with more information, eg Park Map, Events, Contact, without having to press the back key 
+I have added the navigation bar on the all other page so its easy to navigate.
 
-### Carousel 
+### Carousel card and JsFlipster
 
-For the carousel image I have used the Bootstrap 4.5 and 7  
+For the carouse card image for gallery I have used the Bootstrap 4.5 and 7 ,
+for the Jsflipster I have Copyed the link and some code from one of the YouTube Guide Video.
 
 ### Hyperlinks  
 
@@ -201,14 +201,15 @@ I have included Hyperlinks on the webpage to allow the user to go straight to di
 ### Map  
 
 I have included a Map, for information on location and also to show the scale of the park.  
+Map is Also created with the javascript.
 
  
 
-#### Back to top Buttons  
+#### LightHouse Images
 
-This is an extra feature, enabling the user to be able to click to go back to the top of the website instead of having to scroll.  
+gallery2 Is created with LightHouse-plus-Jquery.js 
 
-This Idea was sourced from an online website 
+
 
  
 

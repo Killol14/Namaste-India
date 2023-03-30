@@ -21,9 +21,8 @@ body{
     justify-content: center;
     align-items: center;
     width: 100%;
-   
     padding: 20px 100px;
-    top:200px
+    top:120px;
 }
 
 .content-box{
@@ -101,15 +100,15 @@ h2:after{
     background-color: #1bdf6c;
 }
 
-@media screen and (max-width:850px) {
-    .contact-box{
-        grid-template-columns: 1fr;
-    }
-    
-    .field{
-        padding: 0.5rem 0.1rem;
-    }
+   .Social-Media{
+    position: relative;
+    justify-content: center;
+    top:150px;
 }
+   
+
+/*Media Quairy*/
+
 
 @media (max-width: 480px) {
     .containerone {
@@ -117,6 +116,7 @@ h2:after{
       width: 100%;
       background-image: url("/images/India.img/travel2.png");
     }
+   
   }
   @media (max-width: 680px) {
     .containerone {
@@ -125,6 +125,30 @@ h2:after{
       background-image: url("/images/India.img/travel2.png");
     }
   }
+  
+@media screen and (max-width:850px) {
+    .contact-box{
+        grid-template-columns: 1fr;
+    }
+    
+    .field{
+        padding: 0.4rem 0.1rem;
+    }
+   
+}
+
+@media (max-width: 1200px) {
+    .containerone {
+      height: 100vh;
+      width: 100%;
+      background-image: url("/images/India.img/travel2.png");
+    }
+    .container{
+        margin-top: auto;
+    }
+  
+}
+
   @media (max-width: 1400px) {
     .containerone {
       height: 100vh;
