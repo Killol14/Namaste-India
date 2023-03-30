@@ -219,7 +219,7 @@ animation-duration: 5s;
     max-width: 100%;
     height: 100vh;
     margin: auto;
-    background-image: url("/images/index.img/taj.JPEG");
+    background-image: url("/images/indeximg/taj.JPEG");
     background-repeat: no-repeat;
     background-size: cover;
     /*overflow: hidden;*/
@@ -428,7 +428,7 @@ h2{
   .containerone {
     height: 100vh;
     width: 100%;
-    background-image: url("/images/index.img/taj.JPEG");
+    background-image: url("/images/indeximg/taj.JPEG");
     display: flex;
   }
 }
@@ -436,14 +436,14 @@ h2{
   .containerone {
     height: 100vh;
     width: 100%;
-    background-image: url("/images/index.img/taj.JPEG");
+    background-image: url("/images/indeximg/taj.JPEG");
   }
 }
 @media (max-width: 1400px) {
   .containerone {
     height: 100vh;
     width: 100%;
-    background-image: url("/images/index.img/taj.JPEG");
+    background-image: url("/images/indeximg/taj.JPEG");
   }
 }
 

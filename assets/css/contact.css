@@ -8,7 +8,7 @@
 body{
     width: 100%;
     height: 100vh;
-    background-image: url("/images/India.img/travel2.png");
+    background-image: url("/images/indeximg/travel2.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-size: cover;
@@ -114,7 +114,7 @@ h2:after{
     .containerone {
       height: 100vh;
       width: 100%;
-      background-image: url("/images/India.img/travel2.png");
+      background-image: url("/images/indeximg/travel2.png");
     }
    
   }
@@ -122,7 +122,7 @@ h2:after{
     .containerone {
       height: 100vh;
       width: 100%;
-      background-image: url("/images/India.img/travel2.png");
+      background-image: url("/images/indeximg/travel2.png");
     }
   }
   
@@ -141,7 +141,7 @@ h2:after{
     .containerone {
       height: 100vh;
       width: 100%;
-      background-image: url("/images/India.img/travel2.png");
+      background-image: url("/images/indeximg/travel2.png");
     }
     .container{
         margin-top: auto;
@@ -153,6 +153,6 @@ h2:after{
     .containerone {
       height: 100vh;
       width: 100%;
-      background-image: url("/images/India.img/travel2.png");
+      background-image: url("/images/index/travel2.png");
     }
 }
