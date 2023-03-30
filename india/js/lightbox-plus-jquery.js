@@ -9,8 +9,9 @@
  * Released under the MIT license
  * https://jquery.org/license
  *
- * Date: 2022-12-20T21:28Z
  */
+/* This code is copied  from out source*/
+
 ( function( global, factory ) {
 
 	"use strict";

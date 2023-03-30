@@ -4,92 +4,141 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Namaste India Gallery</title>
 
+
+      <!--Animate.css CDN-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
   
-  <!--Animate.css CDN-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     
-
-  <!-- font-awesome-->
-
-  <script src="https://kit.fontawesome.com/5ab2e71812.js" crossorigin="anonymous"></script>
+       <!-- font-awesome-->
+       <script src="https://kit.fontawesome.com/5ab2e71812.js" crossorigin="anonymous"></script>
   
 
-<!--jQuery link-->
-    <link rel="stylesheet" href="css/flipster.min.css">
-
-<!--Style.css Gallery.css Links-->
+    <!--CSS-links-->
     <link rel="stylesheet" href="india/css/gallery.css">
-    <link rel="stylesheet" href="india/js/jsflipster/jquery.flipster.min.css">
+    <link rel="stylesheet" href="india/css/lightbox.css">
+    <link rel="stylesheet" href="india/css/style.css">
+
+
+    <title>Namste India Gallery</title>
 </head>
 <body>
-    <div class="container">
-        <a href="#" class="toggleBox">
-            <span class="icon"></span>
-        </a>
-        <ul class="navItems">
-            <li>
-                <a href="index.html">
-                    <i class="fa fa-home" style="--i:1"></i>
-                    <span style="--g:1">Home</span>
-                </a>
-            </li>
-            <li>
-                <a href="about.html">
-                    <i class="fa fa-user" style="--i:2"></i>
-                    <span style="--g:2">About</span>
-                </a>
-            </li>
-            <li>
-                <a href="checkout.html">
-                    <i class="fa fa-user" style="--i:2"></i>
-                    <span style="--g:2">Package</span>
-                </a>
-            </li>
-            <li>
-                <a href="contact.html">
-                    <i class="fa-regular fa-address-book" style="--i:3"></i>
-                    <span style="--g:3">Contact</span>
-                </a>
-            </li>
+    <header>
 
-
-
-        </ul>
-    </div>
-     <div class="hero">
-        <div class="carousel">
-            <ul>
-                <li><img src="images/India.img/India1.png" alt="TajMahal"> </li>
-                <li><img src="images/India.img/India2.png" alt="Golden Temple"> </li>
-                <li><img src="images/India.img/India3.png" alt="Taj Hotel Mumbai"> </li>
-                <li><img src="images/India.img/India5.png" alt="Goa"> </li>
-                <li><img src="images/India.img/India6.png" alt="Udapur temple"> </li>
-                <li><img src="images/India.img/India7.png" alt="Getway of India"> </li>
-                <li><img src="images/India.img/India8.png" alt="Mumbai City"> </li>
-                <li><img src="images/India.img/India9.png" alt="Mumabi Bridge"> </li>
-            </ul>
+        <nav>
+            <div class="logo"> <h1 class="animate__animated animate__heartBeat animate__infinite ">Namaste India</h1> </div>
+            <div class ="menu">
+             
+                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link" href="about.html">About</a>
+                <a class="nav-link" href="gallery.html">Gallery</a>
+                <a class="nav-link" href="checkout.html">Package</a>
+                <a class="nav-link" href="contact.html">Contact</a>
+    
+              <div class="toggle_btn">
+                <i class="fa-solid fa-bars bar"></i>
+              </div>
+          </div>
+        </nav>
+        <div class="dropdown_menu">
+            <ol>
+                <li><a class="nav-link" href="index.html">Home</a></li> 
+                <li><a class="nav-link" href="about.html">About</a></li>
+                <li><a class="nav-link" href="gallery.html">Gallery</a></li>
+                <li><a class="nav-link" href="checkout.html">Package</a></li>
+                <li><a class="nav-link" href="contact.html">Contact</a></li>
+          
+            </ol>
+         
         </div>
-        <div><a class="see" href="gallery2.html">SEE MORE</a></div> 
-     </div>  
-     
+    </header>
+    <div class="container">
+        <div class="gallery">
+            <a href="images/gallery/cityindia1.jpg" data-lightbox="models" data-title="City Of India">
+                <img src="images/gallery/cityindia1.jpg" alt ="India1">
+            </a>
+            <a href="images/gallery/cityindia22.jpg" data-lightbox="models" data-title="Mumbai City">
+                <img src="images/gallery/cityindia22.jpg" alt ="India2">
+            </a>
+            <a href="images/gallery/villageindia2.jpg" data-lightbox="models" data-title="Village in India">
+                <img src="images/gallery/villageindia2.jpg" alt ="India3">
+            </a>
+            <a href="images/gallery/village2india3.jpg" data-lightbox="models" data-title="Old Village in India">
+                <img src="images/gallery/village2india3.jpg" alt ="India4">
+            </a>
+            <a href="images/gallery/forest2india4.jpg" data-lightbox="models" data-title="Elephent in forest">
+                <img src="images/gallery/forest2india4.jpg" alt ="India5">
+            </a>
+            <a href="images/gallery/forestindia5.jpg" data-lightbox="models" data-title="Tiger in forest">
+                <img src="images/gallery/forestindia5.jpg" alt ="India6">
+            </a>
+            <a href="images/gallery/forest3india6.jpg" data-lightbox="models" data-title="Monkeys in forest">
+                <img src="images/gallery/forest3india6.jpg" alt ="India7">
+            </a>
+            <a href="images/gallery/forest4india7.jpg" data-lightbox="models" data-title="Peacock in forest">
+                <img src="images/gallery/forest4india7.jpg" alt ="India8">
+            </a>
+            <a href="images/gallery/forest5india8.jpg" data-lightbox="models" data-title="River in India">
+                <img src="images/gallery/forest5india8.jpg" alt ="India9">
+            </a>
+            <a href="images/gallery/farmingindia9.jpg" data-lightbox="models" data-title="Farming in India">
+                <img src="images/gallery/farmingindia9.jpg" alt ="India10">
+            </a>
+            <a href="images/gallery/farming2india10.jpg" data-lightbox="models" data-title="Farmer in India">
+                
+            <img src="images/gallery/farming2india10.jpg" alt ="India11">
+            </a>
+            <a href="images/gallery/templeindia11.jpg" data-lightbox="models" data-title="Temple in India">
+                <img src="images/gallery/templeindia11.jpg" alt ="India12">
+            </a>
+            <a href="images/gallery/temple2india12.jpg" data-lightbox="models" data-title="Temple in SouthIndia">
+                <img src="images/gallery/temple2india12.jpg" alt ="India13"> 
+            </a>
+            <a href="images/gallery/temple3india13.jpg" data-lightbox="models" data-title="Temple in Rajesthan India">
+                <img src="images/gallery/temple3india13.jpg" alt ="India14">
+            </a>
+            <a href="images/gallery/temple4india14.jpg" data-lightbox="models" data-title="Golden Temple">
+                <img src="images/gallery/temple4india14.jpg" alt ="India15">
+            </a>
+            <a href="images/gallery/festivalindia15.jpg" data-lightbox="models" data-title="Holi Festival in India">
+                <img src="images/gallery/festivalindia15.jpg" alt ="India16">
+            </a>
+            <a href="images/gallery/festival2india16.jpg" data-lightbox="models" data-title="Holi Festival">
+                <img src="images/gallery/festival2india16.jpg" alt ="India17">
+            </a>
+            <a href="images/gallery/festival3india17.jpg" data-lightbox="models" data-title="Diwali Festival">
+                <img src="images/gallery/festival3india17.jpg" alt ="India18">
+            </a>
+            <a href="images/gallery/festival4india18.jpg" data-lightbox="models" data-title="Getway Of India in Night">
+                <img src="images/gallery/festival4india18.jpg" alt ="India19">
+            </a>
+            <a href="images/gallery/festival5india19.jpg" data-lightbox="models" data-title="Religion Festival">
+               <img src="images/gallery/festival5india19.jpg" alt ="India20">
+            </a>
+            <a href="images/gallery/mimbaiindia20.jpg" data-lightbox="models" data-title="Marindrive Mumbai">
+                <img src="images/gallery/mimbaiindia20.jpg" alt ="India21">
+            </a>
+            <a href="images/gallery/rajesthanindia21.jpg" data-lightbox="models" data-title="Dessert (kuch) India">
+                <img src="images/gallery/rajesthanindia21.jpg" alt ="India22">
+            </a>
+            <a href="images/gallery/beachindia23.jpg" data-lightbox="models" data-title="Sea side India">
+                <img src="images/gallery/beachindia23.jpg" alt ="India23">
+            </a>
+            <a href="images/gallery/beach2india24.jpg" data-lightbox="models" data-title="Goa Beach In India">
+                <img src="images/gallery/beach2india24.jpg" alt ="India24">
+            </a>
+            
+        </div>
+    </div>
+    
+   <!--Js-Link-->
+<script src="india/js/lightbox-plus-jquery.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="india/js/script.js"></script>
+<script src="india/js/app.js"></script>
     
 
-<!---JQuery CDN-->
-     <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    
 
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.flipster/1.1.5/jquery.flipster.min.js" integrity="sha512-YPskov+TTZvojhg9iWYQKa6iRPRm8hko8GBbdV8A8KKMTwp84+jm2K+soYNx3Wf6qQhxb+kn2sjpMZwkWxnD/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-     <script src="/js/jquery.min.js"></script>
-<script src="india/js/jsflipster/jquery.flipster.min.js"></script>
-<script>
-    $('.carousel').flipster({
-        style:"carousel",
-        spacing: -0.3,
-    });
-</script>
-
-<script src="india/js/script.js"></script>
 </body>
 </html>
