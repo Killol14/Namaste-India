@@ -221,7 +221,7 @@ animation-duration: 5s;
     margin: auto;
     background-image: url("/assets/images/taj.JPEG");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:100% 100%;
     /*overflow: hidden;*/
     align-items: center;
     justify-content: center;
