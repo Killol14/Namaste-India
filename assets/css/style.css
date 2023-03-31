@@ -219,7 +219,7 @@ animation-duration: 5s;
     max-width: 100%;
     height: 100vh;
     margin: auto;
-    background-image: url("/images/indeximg/taj.JPEG");
+    background-image: url("/images/indeximg/jaipur.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     /*overflow: hidden;*/
@@ -423,7 +423,7 @@ h2{
   }
 
   /* Media quairy for Background Images*/
-  
+  /*
  @media (max-width: 480px) {
   .containerone {
     height: 100vh;
@@ -447,3 +447,4 @@ h2{
   }
 }
 
+*/
