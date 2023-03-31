@@ -66,6 +66,7 @@ label{
 .btn-danger {
     margin-top: 5px;
 }
+
 @media (max-width:1000px) {
   div.main.ng-scope{
     margin-top: 250px;

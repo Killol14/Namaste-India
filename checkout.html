@@ -16,7 +16,6 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-   
  
      <!--Animate.css CDN-->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
@@ -37,7 +36,7 @@
     <link rel="stylesheet" href="assets/css/checkout.css">
     <link rel="stylesheet" href="assets/css/style.css">
    
-  
+    
     <title>Checkout</title>
 </head>
 
@@ -72,7 +71,7 @@
 
  
 
-<main class="main" ng-app="myApp" ng-controller="myCtrl">
+<div class="main" ng-app="myApp" ng-controller="myCtrl">
     <h1>Package Guide</h1>
     <div ng-show="showMe" class="menu">
       <h3>Details</h3>
@@ -91,7 +90,7 @@
         </tr>
       </table>
      <h4>NOTE: If you do not find the right Destination where you want to travel PLEASE Click Below Destination Bitton for more Information</h4>
-    </main>
+    </div>
     <form>
       <div class="form-row">
         <div class="col-md-4 mb-3">
@@ -128,7 +127,7 @@
         </div>
         <div class="col-md-3 mb-3">
           <label for="address">Package</label>
-          <input type="text" class="form-control" id="validationDefault07" placeholder="Package" required ng-model="name">
+          <input type="text" class="form-control" id="validationDefault07" placeholder= "package" required ng-model="name">
           <button type="button" onclick="window.location.href='https://www.exoticca.com/uk'" target="_blank" class="btn btn-danger">More Destination</button>
         </div>
       </div>
