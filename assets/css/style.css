@@ -139,17 +139,13 @@ main{
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-top: 150px;
    
 }
 
-/*section{
-    margin-top: 50%;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-}*/
+
 section h3{
-    font-size: 35px;
+    font-size: 100px;
     font-weight: 200;
     letter-spacing: 3px;
     color: orange;
@@ -227,7 +223,7 @@ animation-duration: 5s;
     justify-content: center;
     display: flex;
     background-position: center center;
-    background-attachment: fixed;
+
     
     
 }
@@ -423,12 +419,12 @@ h2{
   }
 
   /* Media quairy for Background Images*/
-  /*
+  
  @media (max-width: 480px) {
   .containerone {
     height: 100vh;
     width: 100%;
-    background-image: url("/images/indeximg/taj.JPEG");
+    background-image: url("/images/taj.JPEG");
     display: flex;
   }
 }
@@ -436,15 +432,14 @@ h2{
   .containerone {
     height: 100vh;
     width: 100%;
-    background-image: url("/images/indeximg/taj.JPEG");
+    background-image: url("/images/taj.JPEG");
   }
 }
 @media (max-width: 1400px) {
   .containerone {
     height: 100vh;
     width: 100%;
-    background-image: url("/images/indeximg/taj.JPEG");
+    background-image: url("/images/taj.JPEG");
   }
 }
 
-*/
