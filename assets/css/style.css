@@ -120,6 +120,7 @@ font-size: x-large;
 }
 .dropdown_menu.open{
   height: 240px;
+  z-index: 1;
 }
 
 .dropdown_menu li{
@@ -380,6 +381,7 @@ h2{
   .dropdown_menu {
     left: 2rem;
     width: unset;
+  
   }
   img.card-img-top{
    width: 200px;

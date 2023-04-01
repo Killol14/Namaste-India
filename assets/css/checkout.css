@@ -1,8 +1,12 @@
-
+*{
+  margin: 0;
+  padding: 0;
+}
 
 .main{
     color: orangered;
     background-color: black;
+   
   }
   
 td#price{
@@ -56,20 +60,12 @@ form{
   td{
     padding: 10px;
   }
-  .menu{
-    transition: 0.3s;
-  }
-label{
+
+ label{
     color: orangered;
     font-size: 1.2rem;
 }
 .btn-danger {
     margin-top: 5px;
-}
 
-@media (max-width:1000px) {
-  div.main.ng-scope{
-    margin-top: 250px;
-  }
-  
 }
