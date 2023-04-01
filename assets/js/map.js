@@ -1,4 +1,4 @@
-function initMap() {
+ function initMap() {
   
   var map = new google.maps.Map(document.getElementById("map"), {
     Zoom: 5,
@@ -22,6 +22,5 @@ function addMarker(coords){
 }
 } 
 
-  
 
   

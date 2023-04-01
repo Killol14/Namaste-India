@@ -1,15 +1,20 @@
-function sendMail(contactForm) 
-emailjs.send("service_zz2p4jo","K1G7S19",{
-    "form_name": contactForm.name.value,
-    "form_email": contactForm.emailaddress.value,
-    "form_phone": contactForm.phone.value,
-    "form_message": contactForm.message.value
-})
+function sendMail() {
+    var params = {
+        name: document.getElementById("fullName").value,
+        email: document.getElementById("emailaddress").value,
+        phone: document.getElementById("phone").value,
+        message: document.getElementById("message").value,
+    };
+const serviceID = "service_g15k8l9";
+const templateID = "template_mbyihn6";
 
-.then(function (response) {
-        console.log("SUCCESS", response);
-    },
-    function (error) {
-        console.log("FAILED", error)
-    
-});
+emailjs.send(serviceID,templateID,params).then((res) => {
+    document.getElementById("fullName").value ="";
+    document.getElementById("emailaddress").value ="";
+    document.getElementById("phone").value ="";
+    document.getElementById("message").value ="";
+    console.log(res);
+    alert("your message sent successfully");
+})
+.catch((err) => console.log(err));
+}

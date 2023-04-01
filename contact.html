@@ -28,19 +28,14 @@
     <link rel="stylesheet" href="assets/css/style.css">
 
     <!--Email.js-->
-
-    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
-   
-    <script 
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
     </script>
-
-    <!--Script.js for email-->
-   <script>
-   (function(){
-      emailjs.init("AGHGSo2M6cI_x-cWN");
-   })();
-</script>
+    <script type="text/javascript">
+     (function(){
+     emailjs.init("AGHGSo2M6cI_x-cWN");
+    })();
+    </script>
 
 <!--Contact Form-->
 
@@ -88,7 +83,7 @@
                 <input type="email" name="email"  class="field" id="emailaddress" placeholder="Your Email">
                 <input type="text" name="phone"  class="field" id="phone" placeholder="Your Phone">
                 <textarea class="field" name="message"  id="message" placeholder="Message"></textarea>
-                <button class="btn">Send</button>
+                <button class="btn" onclick="sendMail()">Send</button>
                 
               </form>
                 
