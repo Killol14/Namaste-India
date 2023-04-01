@@ -2,10 +2,17 @@
   margin: 0;
   padding: 0;
 }
-
+body{
+  width: 100%;
+  height: 100vh;
+  background-image: url("../images/indialand.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
 .main{
-    color: orangered;
-    background-color: black;
+    color: orange;
+    background-color: transparent;
+  
    
   }
   
@@ -62,7 +69,7 @@ form{
   }
 
  label{
-    color: orangered;
+    color: yellow;
     font-size: 1.2rem;
 }
 .btn-danger {
