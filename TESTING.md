@@ -17,3 +17,8 @@
 | Map Hyperlink| 1. At the bottom of the page there is a Snapshot of the park on Google maps. This is an interactive map, in which the user can pull the image down/across etc in order to view different areas of the park.| The Hyperlink works and takes the user to google maps. The interactive feature in the website also works and is able to move within the website itself.| As expected, to work without any bugs| No Bug Detected|
 | Back to top button| 1. Pressing the back to top button.| Once pressed the page returns to the top.| As expected, to work without any bugs| No Bug Detected|
 | Social Media links| 1. There are 4 social media links, Facebook, Linkedin, Instagram and twitter.Once pressed these take you to the relevant social media pages.| All links work and take to the relevant social media page| As expected, to work without any bugs| No Bug Detected|
+
+
+#Error
+* This Error is showing in Devtools but once I open the Error it shows empty page. so I have recharch it seems unnessesory error.
+![Website Homepage Error](images/README.img/Wrong20%error.PNG)
