@@ -8,11 +8,11 @@
 
 
 
-Namste India Is for people who whats know about The India before they travel. 
+Namste India Is for people who want to know about India before they travel. This website also provides booking information. 
 
  
 
-This is my Milestone project 1 submission for Code Institute’s Diploma in Web Application Development course. My Website features six pages and is built using languages that I have learnt including, HTML, CSS, JAVAscript, jquery and Bootstrap.  
+This is my Milestone project 2 submission for Code Institute’s Diploma in Web Application Development course. My Website features five pages and is built using languages that I have learnt including, HTML, CSS, JAVAscript, jquery, Bootstrap, Email.js and Map.js.  
 
  
 
@@ -94,13 +94,13 @@ https://github.com/Killol14/Nmaste-India
 
 * User Stories
 
-Pspective visitors 
+Perspective visitors 
 
-I created this website for families and potential visitors and first Time Travelling to TheIndia, as I couldn’t find a website that contained the information for the firsttime Travelling to india and wants know before travelling to the India. 
+I created this website for families and potential first time travellers to India, as I couldn’t find a website that contained the information specifically for this demographic.  
 
 
 
-I also believe that visitors who wish to ask more questions about the India befor they travel as I have created a contact form to submit with any questions and also I have created a Package Guide form where they can find out estimated price for travelling to India.
+I also believe that visitors may wish to ask more questions about India before they travel. I have created a contact form to submit any questions and also I have created a Package Guide form where they can find out estimated price for travelling to India.
 
 ## Wireframes  
 
@@ -139,16 +139,16 @@ I also believe that visitors who wish to ask more questions about the India befo
 
 ## Design 
 
-For the Main title page of The Namste India website, (H1) I used "Josefin Slabas" the main font. This is a clear and simplistic font enabling Viewers of the website see clearly the topic of the website.  I also Used Same Font "Josefin Slab" throughout the wwebsite as seems like its more related font with Indian culture.
+For the Main title page of The Namste India website, (H1) I used "Josefin Slabas" the main font. This is a clear and simplistic font enabling Viewers of the website see clearly the topic of the website.  I also Used Same Font "Josefin Slab" throughout the website as seems like its more related font with Indian culture.
 
 
  
 
 ## Colour Scheme  
 
-Used RGB throughout.  
+ 
 
-I chose this colour scheme, as the website is based around Nature, the Green and beige colour scheme match with the nature tones of the topic of the website.  
+I chose this colour scheme, as the website is based around Indian culture and colour scheme of the flag. The Orange and beige orangered colour scheme match with the Indian flag as well as the Olive colours also.   
 
 * Black
 * Olive
@@ -157,19 +157,19 @@ I chose this colour scheme, as the website is based around Nature, the Green and
 * CFB21F
 * 9ACD32
 
-![Park Colour Scheme](images/README.img/colour.PNG)
+![Namaste India Colour Scheme](images/README.img/colour.PNG)
 
 ## Images  
 
-As this website is based on an area of Natural Beauty, I have included images of the park in order to show the diverse aesthetic of the park.  
+As this website is based on India, I have included images of the country in order to show the diverse aesthetic of India.  
 
-The front page has carousel images in order to give a snapshot of the park.  
-
-I have also added extra pictures to each subheading on the website to give a visualization of the attractions situated in the park.  
+The front page has a background hero image of the Taj Mahal, with CSS automation banner text, with the most visited places showing. I have included these as a stricking image to encourage the reader to click further down on the website to learn more about India. 
 
 The website contains border radius throughout for the images to make them more striking and visually appealing 
 
-I have also added a link to a gallery section, in order to give the reader more of an idea of the beauty of the park.  
+I have also added a link to a gallery section, in order to give the reader more of an idea of the beauty of the India.   
+
+There is also a map with significant locations highlited, on the bottom of the website. This is intended the show the diversness of India as it show the most visited places and how the are all spaced out throughout the country. 
 
  
 
@@ -185,113 +185,72 @@ I used the social media on the footer Icons, which are located on the footer fro
 
 ### Navigation Bar  
 
-The navigation bar is Static and is sticky, so the user can refer back to the links at the top at any point.  
+The navigation bar is Static, so the user can refer back to the links at the top at any point. I have also inlcuded a heartbeat text for Namaste India for added effect. 
 
-I have added the navigation bar on the all other page so its easy to navigate.
+I have added the navigation bar on the all other pages so its easy to navigate.
 
-### Carousel card and JsFlipster
 
-For the carouse card image for gallery I have used the Bootstrap 4.5 and 7 ,
-for the Jsflipster I have Copyed the link and some code from one of the YouTube Guide Video.
 
 ### Hyperlinks  
 
-I have included Hyperlinks on the webpage to allow the user to go straight to different websites where external companies provide more details about the events/restaurants/Opening times to get more information.  
+I have included Hyperlinks on the webpage to allow the user to go straight to different websites where external companies provide more details about India to get more information.  The hyperlinks are located on the Home page, through the booking site booking, the about page through the tips and advice button and the package page, through the destinations button. 
 
 ### Map  
 
-I have included a Map, for information on location and also to show the scale of the park.  
-Map is Also created with the javascript.
-
- 
+I have included a Map, for information on locations and also to show the scale of India.  To createthe map with the most visited places in India Pinpoints, I have used API JavaScript and Markerclusterer
 
 #### LightHouse Images
 
-gallery2 Is created with LightHouse-plus-Jquery.js 
-
-
-
- 
+Gallery Is created with LightHouse-plus-Jquery.js 
+LightHouse-plus-Jquery.js Is copied and pasted from zip link Rokesh repository on git hub
 
 ### Social Media Links (Footer) 
 
 This includes the icons which take the user to the relevant social media page  
 
-This code was sourced from Code Institute’s Bootstrap CV project 
-
- 
-
- ## Features  
-
- 
-
+I have added social media links to Facebook, Instagram, Linkedin and Twitter. Every page has a social media link at the bottom, excluding the gallery page. 
+## Features  
 ### Current Features  
 
-I have created a website that is fully responsive on all screen sizes eg Tablet Mobile Laptop, by using the Bootsrap grid system. This allows the texts and images to translate properly on these devices.  
-
- 
-
+I have created a website that is fully responsive on all screen sizes eg Tablet Mobile Laptop, by using the Media query and meta view port. This allows the texts and images to translate properly on these devices.  
 ### Interactive Elements  
 
-I have included a hover function on the gallery tab to enable users to zoom in on the pictures.  
-
-I have also added a Map to the bottom page of the website in order for uses to see the scale of the park and the different car parks/entrances and location.  
-
- 
+I have included a click function that allows the user to open a larger version of the picture. I have also added arrow buttons so that the user can scroll through diffrent Pictures. This is located in the gallery. 
 
 ## Technologies Used  
-
 ### Languages used 
 
-* HTML 5 and CSS 3  
+* HTML, CSS, JAVAscript, jquery, Bootstrap, Email.js and Map.js.
 
 ### Frameworks and Library Programs 
 
-Bootstrap 5  
-
-I used Bootstrap for the Navigation Bar and Carousel 
-
- 
+I used HTML, CSS automation and javascript for the Navigation Bar with drop down menu. 
 
 ####  Google Fonts 
 
-Two fonts Ubantu and Monserrat Bold, were imported from google font.  
-
- 
+Josefin Slabas, were imported from google font and used throughout the website.
 
 ####  Font awesome 
 
 I used the social media icons from font awesome  
 
- 
-
 ####  Git  
 
 Git was used as version control in terminal  
-
- 
 
 ####  Github 
 
 Github was used to create and store the project repository  
 
- 
-
 ####  Gitpod  
 
 Gitpod was used to create my files and where I wrote the code.  
 
+* HTML, CSS, Javascript and JQuery
  
-
-* JQuery  
-
-JQuery came with Bootstrap to make the Nav bar responsive  
-
- 
-
 ### Testing 
 
-
+![Namaste India Manual Testing](TESTING.md)
 ### Html, css and LightHouse Testing Reports
 ----------
 * HTML Validator Reports 
@@ -386,9 +345,9 @@ As this project was developed on the master branch, all changes made to the repo
 
 ## Summary 
 
-This website was created as, I noticed when researching ideas for this project, that there was no specific website dedicated to the park. Only the pages on the Birmingham City Council Website were the only information I could find; however, this was just text and no pictures and not overly informative.  
+This website was created as, I noticed when researching ideas for this project, that there was no specific website dedicated to families and first time travellers to India. I wanted to create a website that was inclusive of all of the needs of the demographic in order to give an opportunity to showcase all the wonderful places India has to offer.  
 
-I believe I have a created a website that shows the natural beauty of the park, with stunning visual imagery and links to activities, nature and restaurants.  
+I believe I have a created a website that shows the natural beauty of India, with stunning visual imagery and links to informative information.  
 
  
 
