@@ -60,11 +60,11 @@
     </nav>
     <div class="dropdown_menu">
       <ol>
-        <li><a class="nav-link" href="index.html">Home</a></li> 
-        <li><a class="nav-link" href="about.html">About</a></li>
-        <li><a class="nav-link" href="gallery.html">Gallery</a></li>
-        <li><a class="nav-link" href="checkout.html">Package</a></li>
-        <li><a class="nav-link" href="contact.html">Contact</a></li>
+        <li><a class="nav-link" href="index.html" style="padding: 0%;">Home</a></li> 
+        <li><a class="nav-link" href="about.html" style="padding: 0%;">About</a></li>
+        <li><a class="nav-link" href="gallery.html" style="padding: 0%;">Gallery</a></li>
+        <li><a class="nav-link" href="checkout.html" style="padding: 0%;">Package</a></li>
+        <li><a class="nav-link" href="contact.html" style="padding: 0%;">Contact</a></li>
       </ol>
    
 
@@ -129,8 +129,20 @@
         </div>
         <div class="col-md-3 mb-3">
           <label for="address">Destination</label>
-          <input type="text" class="form-control" id="validationDefault07" placeholder= "package" required ng-model="name">
-          <button  type="button" class="btn btn-danger" target="_blank"  onclick="window.location.href='https://www.exoticca.com/uk'">More Destinations</button>
+          
+          <select type="text" class="form-control" id="validationDefault07" placeholder= "Destinations" required ng-model="name">
+            <option value="">Destinations</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Agra" >Agra</option>
+            <option value="Mumbai" >Mumbai</option>
+            <option value="Jaipur" >Jaipur</option>
+            <option value="Darjeeling" >Darjeeling</option>
+            <option value="Andaman" >Andaman</option>
+            <option value="Banglore" >Banglore</option>
+            <option value="Goa" >Goa</option>
+            <option value="Kerala" >Kerala</option>
+          </select>
+          <a type="button" href="https://www.exoticca.com/uk" value="travel Website" target="_blank" class="btn btn-danger">More Destinations</a>
         </div>
       </div>
       <div class="form-group">
