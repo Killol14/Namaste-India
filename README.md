@@ -4,7 +4,7 @@
 ## Milestone Project 1: Static Front-End Website 
 
  
-![Website overlook](images/README.img/KS.png)
+![Website overlook](assets/images/images/README.img/KS.png)
 
 
 
@@ -106,34 +106,34 @@ I also believe that visitors may wish to ask more questions about India before t
 
 ### Home Page
 
-![Wireframe1](images/README.img/Home.png)
-![Wireframe2](images/README.img/Home%20Page2.png)
-![Wireframe3](images/README.img/Home%20Page3.png)
+![Wireframe1](assets/images/images/README.img/Home.png)
+![Wireframe2](assets/images/images/README.img/Home%20Page2.png)
+![Wireframe3](assets/images/images/README.img/Home%20Page3.png)
 
 ### About Page
 
-![Wireframe](images/README.img/About%20Page.png)
+![Wireframe](assets/images/images/README.img/About%20Page.png)
 
 ### Gallery Page
 
-![Wireframe1](images/README.img/Gallery%20Page.png)
-![Wireframe2](images/README.img/Gallery%20Page2.png)
+![Wireframe1](assets/images/images/README.img/Gallery%20Page.png)
+![Wireframe2](assets/images/images/README.img/Gallery%20Page2.png)
 
 ### Package Page
 
-![Wireframe](images/README.img/Package%20Page.png)
+![Wireframe](assets/images/images/README.img/Package%20Page.png)
 
 ### Contact Page
 
-![Wireframe](images/README.img/Contact%20page.png)
+![Wireframe](assets/images/images/README.img/Contact%20page.png)
 
 ### Ipad View
 
-![Wireframe](images/README.img/Ipad%20View.png)
+![Wireframe](assets/images/images/README.img/Ipad%20View.png)
 
 ###Phone View
 
-![Wireframe](images/README.img/Phone%20View.png)
+![Wireframe](assets/images/images/README.img/Phone%20View.png)
 
 
 
@@ -157,7 +157,7 @@ I chose this colour scheme, as the website is based around Indian culture and co
 * CFB21F
 * 9ACD32
 
-![Namaste India Colour Scheme](images/README.img/colour.PNG)
+![Namaste India Colour Scheme](assets/images/images/README.img/colour.PNG)
 
 ## Images  
 
@@ -255,34 +255,34 @@ Gitpod was used to create my files and where I wrote the code.
 ----------
 * HTML Validator Reports 
 
-![Wireframe PNG](images/README.img/Html1.PNG) 
+![Wireframe PNG](assets/images/images/README.img/Html1.PNG) 
 -----
-![Wireframe PNG](images/README.img/Gallery.html1.PNG) 
-![Wireframe PNG](images/README.img/Gallery.html2.PNG) 
+![Wireframe PNG](assets/images/images/README.img/Gallery.html1.PNG) 
+![Wireframe PNG](assets/images/images/README.img/Gallery.html2.PNG) 
 -----
-![Wireframe PNG](images/README.img/Gallery.html2.PNG) 
+![Wireframe PNG](assets/images/images/README.img/Gallery.html2.PNG) 
 ----------
 * CSS Validator Reports
 
-![Wireframe PNG](images/README.img/style.cssrepo.PNG) 
-![Wireframe PNG](images/README.img/gallery.cssrepo.PNG) 
-![Wireframe PNG](images/README.img/lightbox.cssrepo.PNG) 
-![Wireframe PNG](images/README.img/about.cssrepo.PNG) 
-![Wireframe PNG](images/README.img/contact.cssrepo.PNG) 
+![Wireframe PNG](assets/images/images/README.img/style.cssrepo.PNG) 
+![Wireframe PNG](assets/images/images/README.img/gallery.cssrepo.PNG) 
+![Wireframe PNG](assets/images/images/README.img/lightbox.cssrepo.PNG) 
+![Wireframe PNG](assets/images/images/README.img/about.cssrepo.PNG) 
+![Wireframe PNG](assets/images/images/README.img/contact.cssrepo.PNG) 
 ----------
 
 * JavaScript Validator Reports
 
-![Wireframe PNG](images/README.img/javascript.report.PNG) 
+![Wireframe PNG](assets/images/images/README.img/javascript.report.PNG) 
 
 
 * LightHouse Performance
-![Wireframe PNG](images/README.img/lighthouse1.PNG) 
-![Wireframe PNG](images/README.img/lighthouse2.PNG) 
-![Wireframe PNG](images/README.img/lighthouse3.PNG) 
-![Wireframe PNG](images/README.img/lighthouse4.PNG) 
-![Wireframe PNG](images/README.img/lighthouse5.PNG) 
-![Wireframe PNG](images/README.img/lighthouse6.PNG) 
+![Wireframe PNG](assets/images/images/README.img/lighthouse1.PNG) 
+![Wireframe PNG](assets/images/images/README.img/lighthouse2.PNG) 
+![Wireframe PNG](assets/images/images/README.img/lighthouse3.PNG) 
+![Wireframe PNG](assets/images/images/README.img/lighthouse4.PNG) 
+![Wireframe PNG](assets/images/images/README.img/lighthouse5.PNG) 
+![Wireframe PNG](assets/images/images/README.img/lighthouse6.PNG) 
 
 
 -----------------------------------------------------------------------------------------------------

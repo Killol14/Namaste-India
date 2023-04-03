@@ -21,4 +21,4 @@
 
 #Error
 * This Error is showing in Devtools but once I open the Error it shows empty page. so I have recharch it seems unnessesory error.
-![Website Homepage Error](images/README.img/Wrong20%error.PNG)
+![Website Homepage Error](assets/images/images/README.img/Wrong%20Error.PNG)
