@@ -17,8 +17,20 @@
 | Tips and advice Hyperlink| 1.At the bottom of the about page there is a tips and advice hyperlink. |The hyperlink is detailed in a separate colour, which is obvious to the user to be able to click on this. The link also takes the user to another website detailing travel advice to India. https://www.responsibletravel.com/holidays/india/travel-guide/india-travel-advice| As expected, to work without any bugs| No Bug Detected|
 | Map Hyperlink| 1. At the bottom of the page there is a map of India from Google maps. This is an interactive map, in which the user can pull the image down/across etc in order to view different locations of India.| The Hyperlink works and takes the user to google maps. The interactive feature in the website also works and is able to move within the website itself.| As expected, to work without any bugs| No Bug Detected|
 | Social Media links| 1. There are 4 social media links, Facebook, Linkedin, Instagram and twitter.Once pressed these take you to the relevant social media pages.| All links work and take to the relevant social media page| As expected, to work without any bugs| No Bug Detected|
+------------------
+# images For Error and Alert Messages
+
+## Package form
+
+![Package Input message](assets/images/images/README.img/packageforminputmsg.PNG)
+
+![Package Alert message](assets/images/images/README.img/packageformalert.PNG)
+
+## Contact Form
+
+![Contact Form Input Message](assets/images/images/README.img/Contactformmsg.PNG)
 
 
-#Error
+# Error
 * This Error is showing in Devtools but once I open the Error it shows empty page. so I have researched it seems unnessesory error.
 ![Website Homepage Error](assets/images/images/README.img/Wrong%20Error.PNG)
