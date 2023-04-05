@@ -1,5 +1,5 @@
 # Namaste India 
-## Menual Testing
+## Manual Testing
 
 
 #### Test Scenario :-
@@ -22,7 +22,7 @@
 | Map Hyperlink| 1. At the bottom of the page there is a map of India from Google maps. This is an interactive map, in which the user can pull the image down/across etc in order to view different locations of India.| The Hyperlink works and takes the user to google maps. The interactive feature in the website also works and is able to move within the website itself.| As expected, to work without any bugs| No Bug Detected|
 | Social Media links| 1. There are 4 social media links, Facebook, Linkedin, Instagram and twitter.Once pressed these take you to the relevant social media pages.| All links work and take to the relevant social media page| As expected, to work without any bugs| No Bug Detected|
 ------------------
-# images For Error and Alert Messages
+# Images For Error and Alert Messages
 
 ## Package form
 
