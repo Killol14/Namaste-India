@@ -264,6 +264,7 @@ Gitpod was used to create my files and where I wrote the code.
 ----------
 * CSS Validator Reports
 
+
 ![Wireframe PNG](assets/images/images/README.img/style.cssrepo.PNG) 
 ![Wireframe PNG](assets/images/images/README.img/gallery.cssrepo.PNG) 
 ![Wireframe PNG](assets/images/images/README.img/lightbox.cssrepo.PNG) 
@@ -341,6 +342,27 @@ As this project was developed on the master branch, all changes made to the repo
 1.Open your preferred IDE (VSCode, Atom, PyCharm, etc).
 2.Navigate to the chosen directory where the Repository was Cloned/Extracted.
 3.You will now have offline access to the contents of the project.
+###  Google Fonts 
+
+Josefin Slabas, were imported from google font and used throughout the website.
+
+###  Font awesome 
+
+I used the social media icons from font awesome  
+
+###  Git  
+
+Git was used as version control in terminal  
+
+### Github 
+
+Github was used to create and store the project repository  
+
+### Gitpod  
+
+Gitpod was used to create my files and where I wrote the code.  
+
+* HTML, CSS, Javascript and JQuery
  
 
 ## Summary 
@@ -350,16 +372,19 @@ This website was created as, I noticed when researching ideas for this project, 
 I believe I have a created a website that shows the natural beauty of India, with stunning visual imagery and links to informative information.  
 
  
-
 ## Credits  
 
  
 
-Credit goes to Bootstrap 5 and Shutterstock  
-Navigation Bar and carasol are used by Bootstrap 
-Main Images from Shutterstock
+Credit goes to Bootstrap 5 and FreeImages 
+Navigation Bar JavaScript
+Main Images from FreeImages
+Gallery page from Lighthouse.js
+Google Map From API keys
+Contact form from emailjs
 
-##### Acknowledgements
+
+### Acknowledgements
 
  
 
@@ -369,13 +394,9 @@ With thanks to Ronan McCelland,mentor, and Ben Smith, tutor who helped me develo
 
 Thank you to the code institute city of Bristol college for help and support.  
 
- ReadMe file structure, with credit to the former student, milestone 1 Row Gallery Website
+ReadMe file structure, with credit to the former student, milestone 1 Row Gallery Website
 
 This website is purely fictious and not for public consumption.  
-
- 
-
- 
 
  
 
