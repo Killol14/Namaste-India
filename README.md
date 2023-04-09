@@ -28,7 +28,7 @@ https://killol14.github.io/Namaste-India/
 ## Repository  
 
 (Project repository here)  
-https://github.com/Killol14/Nmaste-India
+https://github.com/Killol14/Namaste-India
  
 
 ## Table of Contents  
