@@ -376,12 +376,12 @@ I believe I have a created a website that shows the natural beauty of India, wit
 
  
 
-Credit goes to Bootstrap 5 and FreeImages 
-Navigation Bar JavaScript
-Main Images from FreeImages
-Gallery page from Lighthouse.js
-Google Map From API keys
-Contact form from emailjs
+ * Credit goes to Bootstrap 5 and FreeImages 
+ * Navigation Bar JavaScript
+ * Main Images from FreeImages
+ * Gallery page from Lighthouse.js
+ * Google Map From API keys
+ * Contact form from Emailjs
 
 
 ### Acknowledgements
