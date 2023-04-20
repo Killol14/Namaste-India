@@ -10,9 +10,9 @@ body{
     height: 100vh;
     background-image: url("../images/homepage/travel2.png");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-  
-
+    background-size: 95%;
+    /*overflow: hidden;*/
+    background-position: center center;
 }
 /*container starts*/
 .container{
@@ -128,6 +128,12 @@ h2:after{
     }
    
 }
+@media screen and (max-width:1900px) {
 
-
-
+    body{
+        background-size: cover;
+        background-position: center center;
+      
+    }
+    
+}

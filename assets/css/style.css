@@ -184,14 +184,16 @@ animation-duration: 5s;
 /*Container-One*/
 
 .containerone { 
-    max-width: 100%;
+    max-width: 90%;
     height: 100vh;
-   
+    margin: auto;
     background-image: url("../images/homepage/taj.avif");
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: 100%;
     /*overflow: hidden;*/
     display: flex;
+    justify-content: center;
+    align-items: center;
     background-position: center center;
     
 }
@@ -396,15 +398,13 @@ h2{
     background-image: url("/images/taj.JPEG");
     display: flex;
   }
-}
-@media (max-width: 680px) {
+}*/
+@media (max-width: 980px) {
   .containerone {
-    height: 100vh;
-    width: 100%;
-    background-image: url("/images/taj.JPEG");
+   background-size: cover;
   }
 }
-*/
+
 
 
 
