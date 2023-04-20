@@ -30,8 +30,8 @@ img{
 }
 .gallery img{
     width: 100%;
+}
 
-} 
 @media (max-width: 1300px) {
     .gallery{
         grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
