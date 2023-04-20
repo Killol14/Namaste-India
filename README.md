@@ -159,7 +159,7 @@ I chose this colour scheme, as the website is based around Indian culture and co
 
 ![Namaste India Colour Scheme](assets/images/images/README.img/colour.PNG)
 
-![Namaste India Colour Scheme](assets/images/images/README.img/colourkit.png)
+![Namaste India Colour Scheme](assets/images/images/README.img/colorkit.png)
 
 ## Images  
 
