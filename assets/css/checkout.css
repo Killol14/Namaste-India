@@ -7,7 +7,7 @@ body{
   height: 100vh;
   background-image: url("../images/homepage/map.jpg");
   background-repeat: no-repeat;
-  background-size: 80% 100%;
+ background-position: center center;
 }
 
 .main{
