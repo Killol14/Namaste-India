@@ -128,3 +128,8 @@ h2:after{
     }
    
 }
+@media (max-width:1110px) {
+    body{
+        background-size: cover;
+    }
+}
