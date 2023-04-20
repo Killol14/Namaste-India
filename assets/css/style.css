@@ -105,16 +105,11 @@ font-size: x-large;
 
 /* Container starts */
 main{
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+ 
     text-align: center;
     margin-top: 150px;
-   
+  
 }
-
 
 section h3{
     font-size: 70px;
@@ -125,7 +120,7 @@ section h3{
 }
 section h1{
     margin: 30px 0 20px 0;
-    font-size: 55px;
+    font-size: 50px;
     font-weight: 700;
     color: black;
     text-shadow: 2px 1px 5px white;
@@ -144,7 +139,7 @@ section a{
     border-radius: 4px;
     outline:none;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: auto;
     font-weight: 900;
     text-decoration: none;
     letter-spacing: 1px;
